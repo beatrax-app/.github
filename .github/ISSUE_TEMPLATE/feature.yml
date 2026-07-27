@@ -1,0 +1,65 @@
+name: Feature request
+description: Suggest an improvement or a new capability for beatrax.
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Focus on the problem first — the solution is easier to design once the
+        problem is clear. If the idea is large or you're unsure it fits, a
+        [Discussion](https://github.com/beatrax-app/beatrax/discussions) is
+        cheaper than a rejected pull request.
+  - type: textarea
+    id: use-case
+    attributes:
+      label: The use case
+      description: The situation you are in and the outcome you want.
+      placeholder: >
+        When I import a CAMT.053 file with a refunded PayPal chain, I have to
+        reconcile the funding direction by hand because the chain resolver only
+        handles outgoing flows.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-ux
+    attributes:
+      label: Proposed experience
+      description: >
+        What would this look like if it existed? A short walkthrough of the
+        screens, commands or keyboard shortcuts is enough.
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Why existing features don't cover it
+      description: >
+        beatrax already has the command palette, the chain resolver, rules,
+        envelope budgets, recurring series and counterparty profiles. What did
+        you try, and where did it fall short?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: A separate tool, a manual workaround, a configuration change.
+    validations:
+      required: false
+  - type: input
+    id: frequency
+    attributes:
+      label: How often would you use it
+      placeholder: "every import / monthly / one-off setup"
+    validations:
+      required: false
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy implications
+      description: >
+        beatrax is local-first and does not phone home. If this needs any
+        network call, say so explicitly — it will have to be optional and off
+        by default.
+    validations:
+      required: true

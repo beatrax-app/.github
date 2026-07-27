@@ -1,0 +1,97 @@
+name: Bug report
+description: Something in beatrax is not working as it should.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security vulnerability? Do not file it here.** Use private reporting:
+        the **Security** tab → **Report a vulnerability**. See
+        [SECURITY.md](https://github.com/beatrax-app/.github/blob/main/SECURITY.md).
+
+        Redact IBANs, account numbers, names and amounts before posting logs or
+        screenshots. Not sure which repo this belongs in? File it here anyway;
+        routing is our job.
+  - type: input
+    id: version
+    attributes:
+      label: beatrax version
+      description: Dev Mode → `/_dev/health` (top right), or the About menu.
+      placeholder: "1.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: A clear, one-paragraph description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open beatrax
+        2. Go to ...
+        3. Click ...
+        4. Observe ...
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel, built from source)
+        - Windows
+        - Linux (AppImage)
+        - Linux (.deb)
+        - Mobile
+        - Not applicable
+    validations:
+      required: false
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: Install method
+      options:
+        - Released installer
+        - Built from source
+        - Local development environment
+    validations:
+      required: false
+  - type: input
+    id: data-shape
+    attributes:
+      label: Rough data size
+      description: Helps reproduce scale-dependent bugs.
+      placeholder: "~12k transactions, 4 accounts, 30 recurring series"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: >
+        From Dev Mode → "Open log tailer" (⌘/Ctrl+K → "open log tailer").
+        Redact account numbers, IBANs and amounts before posting.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: >
+        Recent changes to your setup, a redacted statement file that triggers
+        the bug, related issues.
+    validations:
+      required: false

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":semanticCommits", ":pinAllExceptPeerDependencies", "helpers:pinGitHubActionDigests"],
+  "commitBody": "Signed-off-by: Wessel Verheij <info@nightworks.io>",
+  "prBodyNotes": [
+    "Routine dependency update. The repo's own quality gate is the review — if CI is green and the changelog is clean, this can merge."
+  ],
+  "labels": ["dependencies"],
+  "packageRules": [
+    { "matchUpdateTypes": ["minor", "patch", "digest"], "groupName": "non-major dependencies" }
+  ]
+}

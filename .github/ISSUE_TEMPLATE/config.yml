@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & ideas
+    url: https://github.com/beatrax-app/beatrax/discussions
+    about: Ask a question or float an idea before it becomes an issue.
+  - name: Security vulnerabilities
+    url: https://github.com/beatrax-app/beatrax/security/advisories/new
+    about: Do not file security issues publicly. Use private vulnerability reporting.
+  - name: Contributing guide
+    url: https://github.com/beatrax-app/.github/blob/main/CONTRIBUTING.md
+    about: Conventions, ground rules, and what makes a good contribution.

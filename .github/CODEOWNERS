@@ -1,0 +1,7 @@
+# Ownership for the org-wide community health files.
+#
+# Everything here is inherited by every repository in beatrax-app, so a change
+# lands in all of them at once. That makes every file in this repo a
+# maintainer-review path.
+
+* @lessevv
