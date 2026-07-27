@@ -17,7 +17,7 @@ here — a change lands once and every repo picks it up. See README.md.
   repository belongs in that repository, where its own copy wins.
 - Do not add links, addresses, handles or chat invites that cannot be verified
   against an existing file in one of the beatrax repos. The community chat is
-  https://discord.gg/FYuV9CbTHR — use that invite verbatim and do not
+  <https://discord.gg/FYuV9CbTHR> — use that invite verbatim and do not
   invent channel names or deep links into it.
 - Keep the voice of the existing files: calm, precise, concrete, British
   English, no marketing copy.

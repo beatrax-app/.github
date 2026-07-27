@@ -95,7 +95,7 @@ app-store distribution.
 ## The repos
 
 | | |
-|---|---|
+| --- | --- |
 | **[beatrax](https://github.com/beatrax-app/beatrax)** | The application — Laravel 13, Livewire, NativePHP desktop and mobile |
 | **[spec](https://github.com/beatrax-app/spec)** | Specification and design documents |
 | **[website](https://github.com/beatrax-app/website)** | The public site |

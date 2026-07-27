@@ -64,7 +64,7 @@ the maintainers will not pursue legal action.
 ## Response timeline
 
 | Stage | Target |
-|-------|--------|
+| ------- | -------- |
 | Acknowledgment of report | within 7 days |
 | Triage decision (in scope, severity, planned fix window) | within 14 days |
 | Patch ships or detailed status update | within 60 days |

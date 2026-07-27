@@ -5,7 +5,7 @@ Org-wide community health files, inherited by every repository in the
 once so they never drift between repos.
 
 | File | Applies to |
-|------|-----------|
+| ------ | ----------- |
 | `profile/README.md` | The org profile page |
 | `CONTRIBUTING.md` | Every repo without its own |
 | `CODE_OF_CONDUCT.md` | Every repo |
