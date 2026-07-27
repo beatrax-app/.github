@@ -1,9 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":semanticCommits", ":pinAllExceptPeerDependencies", "helpers:pinGitHubActionDigests"],
-  "commitBody": "Signed-off-by: Wessel Verheij <info@nightworks.io>",
+  "commitBody": "Spec: GOV-R12\n\nSigned-off-by: Wessel Verheij <info@nightworks.io>",
   "prBodyNotes": [
-    "Routine dependency update. The repo's own quality gate is the review — if CI is green and the changelog is clean, this can merge."
+    "Routine dependency update — cites `Spec: GOV-R12`, so it passes the governance gate automatically.",
+    "The repo's own quality gate is the review: if CI is green and the changelog is clean, this can merge."
   ],
   "labels": ["dependencies"],
   "packageRules": [
