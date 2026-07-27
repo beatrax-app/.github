@@ -52,7 +52,10 @@ jobs:
           # github.com/beatrax-app is excluded while the org's repositories are
           # still being created and moved across; drop the exclusion once
           # beatrax, spec and website are public.
-          args: "--no-progress --accept 200,206,429 --exclude 'https://github.com/beatrax-app' ."
+          # discord.gg is excluded permanently: invite URLs answer a link
+          # checker with 403/405 whether or not the invite is live, so
+          # checking them only ever produces false failures.
+          args: "--no-progress --accept 200,206,429 --exclude 'https://github.com/beatrax-app' --exclude 'https://discord.gg' ."
           fail: true
 
   markdown:
