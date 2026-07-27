@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Chat on Discord
+    url: https://discord.gg/FYuV9CbTHR
+    about: The quickest way to ask a question or share what you're building.
   - name: Questions & ideas
     url: https://github.com/beatrax-app/beatrax/discussions
     about: Ask a question or float an idea before it becomes an issue.

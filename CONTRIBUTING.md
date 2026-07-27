@@ -65,6 +65,7 @@ By participating you also agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Questions
 
-Open a [Discussion](https://github.com/beatrax-app/beatrax/discussions), or file
-an issue. If you're not sure which repo an issue belongs in, file it anywhere —
-routing is our job, not yours.
+Ask in [Discord](https://discord.gg/FYuV9CbTHR) for anything conversational, open a
+[Discussion](https://github.com/beatrax-app/beatrax/discussions) for something
+worth keeping, or file an issue. If you're not sure which repo an issue belongs
+in, file it anywhere — routing is our job, not yours.

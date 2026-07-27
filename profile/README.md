@@ -15,6 +15,7 @@
   <img alt="Status" src="https://img.shields.io/badge/status-v1.3%20shipped%20%C2%B7%20v2.0%20in%20development-E9A93B?labelColor=3E4C59">
   <img alt="Platforms" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-8A9BA8?labelColor=3E4C59">
   <img alt="Stack" src="https://img.shields.io/badge/Laravel%2013%20%C2%B7%20PHP%208.5%20%C2%B7%20SQLite-777bb4?labelColor=3E4C59">
+  <a href="https://discord.gg/FYuV9CbTHR"><img alt="Discord" src="https://img.shields.io/badge/chat-Discord-5865F2?labelColor=3E4C59"></a>
 </p>
 
 ---
@@ -130,7 +131,8 @@ merchant heuristics, and email-receipt parsers. Start with
 [CONTRIBUTING.md](https://github.com/beatrax-app/beatrax/blob/main/CONTRIBUTING.md)
 — it covers the module boundary and the quality gate every PR has to pass.
 
-Not sure where something belongs? File it anywhere; routing is our job.
+Not sure where something belongs? File it anywhere; routing is our job — or
+just [ask on Discord](https://discord.gg/FYuV9CbTHR).
 
 ---
 
